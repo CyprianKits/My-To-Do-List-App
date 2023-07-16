@@ -1,0 +1,93 @@
+body{
+    background-color:#101820;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: #F2AA4C;
+    margin-top: 100px;
+}
+input[type=text]{
+  color: #000;
+  border-radius: 10px;
+  background-color: #695b5b;
+}
+p{
+    color: #F2AA4C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.to-do-container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 50px;
+    margin-top: 50px;
+}
+.to-do{
+    width: 300px;
+    height: 46px;
+    /*border: 1px solid black;*/
+    border:2px solid;
+    border-radius: 2px auto;
+    outline: none;
+    font-size: 25px;
+    vertical-align:middle;
+    align-content: center;
+    margin-right: 20px;
+}
+.add{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.do{
+    margin-top: 25px;
+}
+
+/* Style for the to-do list */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #695b5b;
+    border-radius: 5px;
+    /* width:100%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  ul li{
+    font-family: 'Dosis', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    color: hsl(0, 32%, 91%);
+  }
+  
+  span {
+    flex-grow: 100;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #171320;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8f5943;
+  }
+  
